@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.35806.103
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chronobox.API", "Chronobox.API\Chronobox.API.csproj", "{F7B93FE4-60B4-4878-BD5A-7AECC1D3813B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chronobox.Core", "Chronobox.Core\Chronobox.Core.csproj", "{43114EB3-7906-4440-A12B-41C7C59B9E73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chronobox.DataAccess", "Chronobox.DataAccess\Chronobox.DataAccess.csproj", "{9D91ED63-A03D-4148-A231-8CB7A822D807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chronobox.Application", "Chronobox.Application\Chronobox.Application.csproj", "{4C845246-F208-4A5D-9068-50F00B690F71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7B93FE4-60B4-4878-BD5A-7AECC1D3813B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B93FE4-60B4-4878-BD5A-7AECC1D3813B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B93FE4-60B4-4878-BD5A-7AECC1D3813B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B93FE4-60B4-4878-BD5A-7AECC1D3813B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43114EB3-7906-4440-A12B-41C7C59B9E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43114EB3-7906-4440-A12B-41C7C59B9E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43114EB3-7906-4440-A12B-41C7C59B9E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43114EB3-7906-4440-A12B-41C7C59B9E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D91ED63-A03D-4148-A231-8CB7A822D807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D91ED63-A03D-4148-A231-8CB7A822D807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D91ED63-A03D-4148-A231-8CB7A822D807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D91ED63-A03D-4148-A231-8CB7A822D807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C845246-F208-4A5D-9068-50F00B690F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C845246-F208-4A5D-9068-50F00B690F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C845246-F208-4A5D-9068-50F00B690F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C845246-F208-4A5D-9068-50F00B690F71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80420C58-B0AF-41CD-AE3A-E60D3021ED6A}
+	EndGlobalSection
+EndGlobal
