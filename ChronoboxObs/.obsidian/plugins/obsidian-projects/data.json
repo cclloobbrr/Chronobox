@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {
+        "tags": {
+          "options": []
+        },
+        "Закончил читать": {
+          "time": false
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Книги/2025",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              }
+            },
+            "orderFields": [
+              "name",
+              "path",
+              "tags"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "4a4f3c28-6d75-4813-9655-67d9c94600c1",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "4513d27b-5da8-41d3-bea9-c74b3a9daba9",
+      "name": "2025"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "locale": {
+      "firstDayOfWeek": "default"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}

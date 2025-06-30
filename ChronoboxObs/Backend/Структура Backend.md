@@ -1,0 +1,43 @@
+- Chronobox.API
+	- Connected Services
+		- База данных SQL Server
+	- Properties
+		- launchSetting.json
+	- Зависимости
+		- Анализаторы
+		- Пакеты
+		- Платформы
+		- Проекты
+	- Chronobox.DataAccess
+		- obj
+			- .EntityFrameworkCore.targets
+	- Contracts
+		- ContainerResponse.cs
+	- Controllers
+		- ContainerController
+	- appsettings.json
+		- appsettings.Development.json
+	- Chronobox.API.http
+	- docker-compose.yml
+	- Program.cs
+- Chronobox.Application
+	- Зависимости
+	- Services
+		- ContainersServices.cs
+- Chronobox.Core
+	- Зависимости
+	- Abstractions
+		- IContainersRepository.cs
+		- IContainersServices.cs
+	- Models
+		- Container.cs
+- Chronobox.DataAccess
+	- Зависимости
+	- Configurations
+		- ContainerConfiguration.cs
+	- Entities
+		- ContainerEntiti.cs
+	- Migrations
+	- Repositories
+		- ContaainerRepository.cs
+	- ChronoboxDbContext.cs

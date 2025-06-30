@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"d7d08f9c29a882f0","type":"text","text":"ContainerController","x":-507,"y":-132,"width":226,"height":50},
+		{"id":"5268bfe55ccea3a0","type":"text","text":"ContainersResponse","x":-200,"y":-132,"width":226,"height":50},
+		{"id":"68e08281dbb341e5","type":"text","text":"IContainersServices","x":-807,"y":-132,"width":216,"height":50},
+		{"id":"f1b7ccea3e189aa5","type":"text","text":"ContainersServices","x":-1109,"y":-132,"width":216,"height":50},
+		{"id":"07a76576eb32a26a","type":"text","text":"IContainersRepository","x":-1409,"y":-132,"width":239,"height":50},
+		{"id":"cae8d658a3a307c2","type":"text","text":"ContainersRepository","x":-1701,"y":-132,"width":232,"height":50},
+		{"id":"483bfb655b7834a6","type":"text","text":"ContainerEntity","x":-2294,"y":-132,"width":186,"height":50},
+		{"id":"1665f3ba5ba21471","type":"text","text":"ChronoboxDbContext","x":-2019,"y":80,"width":250,"height":60},
+		{"id":"b2ebffdf8628f3e5","type":"text","text":"ContainerConfiguration","x":-2327,"y":-182,"width":253,"height":50},
+		{"id":"c6783b7c697f6d2e","type":"text","text":"Container","x":-2606,"y":-132,"width":140,"height":50},
+		{"id":"bbeb7092d80b5ae4","type":"text","text":"Выход API во фронтенд","x":167,"y":85,"width":259,"height":50}
+	],
+	"edges":[
+		{"id":"420ee6f872b6e94a","fromNode":"5268bfe55ccea3a0","fromSide":"right","toNode":"bbeb7092d80b5ae4","toSide":"left"},
+		{"id":"4049f6dee5546ba1","fromNode":"d7d08f9c29a882f0","fromSide":"right","toNode":"5268bfe55ccea3a0","toSide":"left"},
+		{"id":"692e16ccd00d803b","fromNode":"68e08281dbb341e5","fromSide":"right","toNode":"d7d08f9c29a882f0","toSide":"left"},
+		{"id":"f0641bb5ef12268b","fromNode":"f1b7ccea3e189aa5","fromSide":"right","toNode":"68e08281dbb341e5","toSide":"left"},
+		{"id":"eb0d519079671f1f","fromNode":"cae8d658a3a307c2","fromSide":"right","toNode":"07a76576eb32a26a","toSide":"left"},
+		{"id":"20bf8069704cdce1","fromNode":"07a76576eb32a26a","fromSide":"right","toNode":"f1b7ccea3e189aa5","toSide":"left"},
+		{"id":"e7f42d2e0c7c15c4","fromNode":"1665f3ba5ba21471","fromSide":"right","toNode":"cae8d658a3a307c2","toSide":"left"},
+		{"id":"33fccb305e858a0f","fromNode":"483bfb655b7834a6","fromSide":"right","toNode":"1665f3ba5ba21471","toSide":"left"},
+		{"id":"293a86ed5fc94f76","fromNode":"c6783b7c697f6d2e","fromSide":"right","toNode":"483bfb655b7834a6","toSide":"left"}
+	]
+}

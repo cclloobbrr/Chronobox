@@ -1,0 +1,262 @@
+{
+  "main": {
+    "id": "286ceff192d0563a",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ce437262c1a6883",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "06592b2ad09344fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "METANIT/Литералы.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Литералы"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ecb4de4ba193b887",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f00f7f206d25349",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "679f75473540f96a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "b309c9b442b82c85",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#task/now",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "bc0e6ea34abf9093",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "9e82b88080614b9f",
+    "type": "split",
+    "children": [
+      {
+        "id": "7dfe97d3ef44fee0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac17e184664020b1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Главная страница.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Главная страница"
+            }
+          },
+          {
+            "id": "19096ccce663bd10",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Главная страница.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Главная страница"
+            }
+          },
+          {
+            "id": "f1e86b078fa09882",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "1466b298d9e64cee",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Task/Дописать пункты C(sharp) METANIT.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура Дописать пункты C(sharp) METANIT"
+            }
+          },
+          {
+            "id": "1dc9743e2436a0f4",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Плагин больше не активен"
+            }
+          },
+          {
+            "id": "5b84c67d2ecaadd0",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Плагин больше не активен"
+            }
+          },
+          {
+            "id": "f08ad9fd940fad5b",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Плагин больше не активен"
+            }
+          },
+          {
+            "id": "8f9650544fad34b4",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
+          },
+          {
+            "id": "94d6b8a3f6d395b4",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Граф": false,
+      "switcher:Меню быстрого перехода": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "06592b2ad09344fd",
+  "lastOpenFiles": [
+    "To-do/&&&.md",
+    "METANIT/Литералы.md",
+    "Главная страница.md",
+    "METANIT/Массив параметров и ключевое слово params.md",
+    "METANIT/О METANIT.md",
+    "METANIT/C(sharp).md",
+    "METANIT/Типы данных.md",
+    "METANIT/Передача параметров по ссылке и значению. Выходные параметры.md",
+    "Task/Дописать пункты C(sharp) METANIT.md",
+    "METANIT/Глава_3 Классы, структуры и пространства имён.md",
+    "METANIT/Глава_2 Основы программирования на C(sharp).md",
+    "литерал.md",
+    "Что нужно знать/Вопросы для собеседования С(sharp).md",
+    "Task",
+    "Templates/Task.md",
+    "Без названия.canvas",
+    "Attachments",
+    "Templates/To-Do_Templates.md",
+    "Без названия.md",
+    "Templates",
+    "To-do",
+    "METANIT/Глава_1 Введение в C(sharp).md",
+    "Что нужно знать/'ref' и 'out'.md",
+    "^.md",
+    "Передача параметров по значению.md",
+    "Что нужно знать/Singletone.md",
+    "Первая программа на C(sharp) с .NET CLI.md",
+    "Язык C(sharp) и платформа .NET.md",
+    "METANIT/C(sharp)",
+    "METANIT/Структура программы.md",
+    "METANIT/Первая программа на C(sharp) с .NET CLI.md",
+    "METANIT/Язык C(sharp) и платформа .NET.md",
+    "Что нужно знать",
+    "METANIT/C(sharp)",
+    "METANIT",
+    "Шаблоны/Без названия.canvas",
+    "Шаблоны"
+  ]
+}
