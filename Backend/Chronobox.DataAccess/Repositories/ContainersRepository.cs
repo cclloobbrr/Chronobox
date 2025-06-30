@@ -19,12 +19,10 @@ namespace Chronobox.DataAccess.Repositories
                 .ToListAsync();
 
             var containers = containerEntities
-                .Select(c => Container.Create(c.Id, c.Name, c.DateOfCreation).Container)
+                .Select(c => Container.Create(c.Id, c.Name, c.DateOfCreation))
                 .ToList();
 
             return containers;
         }
-
-
     }
 }

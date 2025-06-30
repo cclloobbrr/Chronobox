@@ -4,12 +4,12 @@
     {
         public const int MAX_NAME_LENGTH = 25;
 
-        private Container(Guid id, string name, DateOnly dateOfCreation, List<Object>? objects = null)
+        private Container(Guid id, string name, DateOnly dateOfCreation)
         {
             Id = id;
             Name = name;
             DateOfCreation = dateOfCreation;
-            Objects = objects?.AsReadOnly() ?? new List<Object>().AsReadOnly();
+            Objects = new List<Object>().AsReadOnly();
         }
         public Guid Id { get; }
 
@@ -17,7 +17,7 @@
 
         public DateOnly DateOfCreation { get; }
 
-        public List<Object> Objects { get; }
+        public IReadOnlyList<Object> Objects { get; }
 
         public static Container Create(Guid id, string name, DateOnly dateOfCreation)
         {

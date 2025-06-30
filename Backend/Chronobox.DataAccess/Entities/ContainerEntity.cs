@@ -7,5 +7,7 @@
         public string Name { get; set; } = string.Empty;
 
         public DateOnly DateOfCreation { get; set; }
+
+        public IReadOnlyList<ObjectEntity> Objects { get; } = [];
     }
 }

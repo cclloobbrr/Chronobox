@@ -22,6 +22,11 @@ namespace Chronobox.DataAccess.Configurations
             builder.Property(c => c.DateOfCreation)
                 .IsRequired();
 
+            builder
+                .HasMany(c => c.Objects)
+                .WithOne(o => o.Container)
+                .HasForeignKey(o => o.ContainerId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

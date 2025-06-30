@@ -10,5 +10,8 @@ namespace Chronobox.DataAccess
         }
 
         public DbSet<ContainerEntity> Containers { get; set; }
+        public DbSet<ObjectEntity> Object { get; set; }
+        public DbSet<ExpirationEntity> Expiration { get; set; }
+
     }
 }
