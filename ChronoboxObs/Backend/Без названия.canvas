@@ -6,11 +6,13 @@
 		{"id":"f1b7ccea3e189aa5","type":"text","text":"ContainersServices","x":-1109,"y":-132,"width":216,"height":50},
 		{"id":"07a76576eb32a26a","type":"text","text":"IContainersRepository","x":-1409,"y":-132,"width":239,"height":50},
 		{"id":"cae8d658a3a307c2","type":"text","text":"ContainersRepository","x":-1701,"y":-132,"width":232,"height":50},
-		{"id":"483bfb655b7834a6","type":"text","text":"ContainerEntity","x":-2294,"y":-132,"width":186,"height":50},
 		{"id":"1665f3ba5ba21471","type":"text","text":"ChronoboxDbContext","x":-2019,"y":80,"width":250,"height":60},
-		{"id":"b2ebffdf8628f3e5","type":"text","text":"ContainerConfiguration","x":-2327,"y":-182,"width":253,"height":50},
-		{"id":"c6783b7c697f6d2e","type":"text","text":"Container","x":-2606,"y":-132,"width":140,"height":50},
-		{"id":"bbeb7092d80b5ae4","type":"text","text":"Выход API во фронтенд","x":167,"y":85,"width":259,"height":50}
+		{"id":"bbeb7092d80b5ae4","type":"text","text":"Выход API во фронтенд","x":167,"y":85,"width":259,"height":50},
+		{"id":"c6783b7c697f6d2e","type":"text","text":"Container","x":-2692,"y":-132,"width":140,"height":50},
+		{"id":"b2ebffdf8628f3e5","type":"text","text":"ContainerConfiguration","x":-2413,"y":-182,"width":253,"height":50},
+		{"id":"483bfb655b7834a6","type":"text","text":"ContainerEntity","x":-2380,"y":-132,"width":186,"height":50},
+		{"id":"0489c54b8228e203","x":-2692,"y":60,"width":134,"height":50,"type":"text","text":"Expiration"},
+		{"id":"e0fe1ead3794167b","x":-2679,"y":326,"width":114,"height":50,"type":"text","text":"Object"}
 	],
 	"edges":[
 		{"id":"420ee6f872b6e94a","fromNode":"5268bfe55ccea3a0","fromSide":"right","toNode":"bbeb7092d80b5ae4","toSide":"left"},
