@@ -4,6 +4,12 @@ namespace Chronobox.DataAccess.Repositories
 {
     public interface IContainersRepository
     {
-        Task<List<Container>> GetAllContainers();
+        Task<List<Container>> GetAll();
+
+        Task<Guid> Add(Container container);
+
+        Task<Guid> Update(Guid id, string name, DateOnly dateOfCreation);
+
+        Task<Guid> Delete(Guid id);
     }
 }

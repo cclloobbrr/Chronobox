@@ -1,6 +1,7 @@
 using Chronobox.Application.Services;
 using Chronobox.DataAccess;
 using Chronobox.DataAccess.Repositories;
+using Chronobox.Application.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -29,3 +30,5 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
 app.Run();
+
+
