@@ -24,7 +24,6 @@ namespace Chronobox.DataAccess.Repositories
                 .ToList();
 
             return containers;
-            //tits
         }
 
         public async Task<Guid> Add(Container container)
