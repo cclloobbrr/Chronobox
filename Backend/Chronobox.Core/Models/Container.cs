@@ -19,16 +19,22 @@
 
         public IReadOnlyList<Object> Objects { get; }
 
-        public static Container Create(Guid id, string name, DateOnly dateOfCreation)
+        public static (Container Container, string Error) Create(Guid id, string name, DateOnly dateOfCreation)
         {
-            if (string.IsNullOrEmpty(name) || name.Length > MAX_NAME_LENGTH)
+            var error = string.Empty;
+
+            if(id == Guid.Empty)
             {
-                throw new ArgumentException($"Name cannot be empty or exceed {MAX_NAME_LENGTH} chars.");
+                error = ($"You can't send an empty id.");
+            }
+            else if (string.IsNullOrEmpty(name) || name.Length > MAX_NAME_LENGTH)
+            {
+                error = ($"Name cannot be empty or exceed {MAX_NAME_LENGTH} chars.");
             }
 
             var container = new Container(id, name, dateOfCreation);
 
-            return container;
+            return (container, error);
         }
     }
 }

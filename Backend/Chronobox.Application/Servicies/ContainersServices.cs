@@ -1,7 +1,8 @@
-﻿using Chronobox.Core.Models;
+﻿using Chronobox.Application.Services;
+using Chronobox.Core.Models;
 using Chronobox.DataAccess.Repositories;
 
-namespace Chronobox.Application.Services
+namespace Chronobox.Application.Servicies
 {
     public class ContainersServices : IContainersServices
     {

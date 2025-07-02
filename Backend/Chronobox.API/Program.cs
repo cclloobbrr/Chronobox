@@ -1,8 +1,8 @@
 using Chronobox.Application.Services;
 using Chronobox.DataAccess;
 using Chronobox.DataAccess.Repositories;
-using Chronobox.Application.Services;
 using Microsoft.EntityFrameworkCore;
+using Chronobox.Application.Servicies;
 
 var builder = WebApplication.CreateBuilder(args);
 
