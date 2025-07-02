@@ -6,6 +6,8 @@ namespace Chronobox.Application.Services
     {
         Task<List<Container>> GetAllContainer();
 
+        Task<Container> GetContainerById(Guid id);
+
         Task<Guid> AddContainer(Container container);
 
         Task<Guid> UpdateContainer(Guid id, string name, DateOnly dateOfCreation);

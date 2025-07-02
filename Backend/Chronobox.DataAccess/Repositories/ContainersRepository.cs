@@ -26,6 +26,20 @@ namespace Chronobox.DataAccess.Repositories
             return containers;
         }
 
+        public async Task<Container> GetById(Guid id)
+        {
+            var containerEntity = await _dbContext.Containers
+                .AsNoTracking()
+                .FirstOrDefaultAsync(c => c.Id == id);
+
+            if(containerEntity == null)
+            {
+                return null;
+            }
+
+            return Container.Create(containerEntity.Id, containerEntity.Name, containerEntity.DateOfCreation).Container;
+        }
+
         public async Task<Guid> Add(Container container)
         {
             var containerEntity = new ContainerEntity

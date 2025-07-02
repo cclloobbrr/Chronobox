@@ -6,6 +6,8 @@ namespace Chronobox.DataAccess.Repositories
     {
         Task<List<Container>> GetAll();
 
+        Task<Container> GetById(Guid id);
+
         Task<Guid> Add(Container container);
 
         Task<Guid> Update(Guid id, string name, DateOnly dateOfCreation);

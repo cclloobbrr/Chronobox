@@ -47,15 +47,31 @@ namespace Chronobox.API.Controllers
         [HttpPut("{id:guid}")]
         public async Task<ActionResult<Guid>> UpdateContainer(Guid id, [FromBody] ContainersRequest request)
         {
+            if(await _containersServices.GetContainerById(id) == null)
+            {
+                return NotFound($"Container with ID {id} not found.");
+            }
             if(string.IsNullOrEmpty(request.Name) || request.Name.Length > Container.MAX_NAME_LENGTH)
             {
-                var error = $"Name cannot be empty or exceed {Container.MAX_NAME_LENGTH} chars.";
-                return BadRequest(error);
+                return BadRequest($"Name cannot be empty or exceed {Container.MAX_NAME_LENGTH} chars.");
             }
 
             var updContainerId = await _containersServices.UpdateContainer(id, request.Name, request.DateOfCreation);
 
             return Ok(updContainerId);
+        }
+
+        [HttpDelete("{id:guid}")]
+        public async Task<ActionResult<Guid>> DeleteContainer(Guid id)
+        {
+            if(await _containersServices.GetContainerById(id) == null)
+            {
+                return NotFound($"Container with ID {id} not found.");
+            }
+
+            var delContainerId = await _containersServices.DeleteContainer(id);
+
+            return Ok(delContainerId);
         }
     }
 }

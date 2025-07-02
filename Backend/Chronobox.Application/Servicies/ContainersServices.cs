@@ -17,6 +17,11 @@ namespace Chronobox.Application.Servicies
             return await _containersRepository.GetAll();
         }
 
+        public async Task<Container> GetContainerById(Guid id)
+        {
+            return await _containersRepository.GetById(id);
+        }
+
         public async Task<Guid> AddContainer(Container container)
         {
             return await _containersRepository.Add(container);
